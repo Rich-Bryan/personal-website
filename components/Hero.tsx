@@ -24,6 +24,8 @@ const Hero = () => {
             className='text-center text-[40px] md:text-5xl ls:text-6xl'
             words="I am a Software Engineer"
           />
+
+      
         </div>
 
       </div>
