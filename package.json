@@ -14,7 +14,7 @@
     "@mui/material": "^5.16.4",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.2.11",
+    "framer-motion": "^11.3.18",
     "icons": "^1.0.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.4",
@@ -24,7 +24,7 @@
     "react-icons": "^5.2.1",
     "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^6.1.12",
-    "tailwind-merge": "^2.3.0",
+    "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {

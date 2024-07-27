@@ -11,9 +11,7 @@ const Timeline = () => {
   return (
     <div className="relative flex justify-center ">
       <section id='experience' >
-      <h1 className="text-center uppercase tracking-widest text-blue-100 mb-8">Timeline</h1>
         <VerticalTimeline>
-          
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
               <VerticalTimelineElement
