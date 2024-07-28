@@ -43,6 +43,7 @@ const Skills = () => {
 
   return (
     <div>
+      <Title title="Skills" />
       <ul className="relative flex flex-wrap justify-center gap-2 text-lg text-gray-800 pb-8">
         {skillsData.map((skill, index) => (
           <motion.li

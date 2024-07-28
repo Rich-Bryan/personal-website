@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Title from "./Title";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,6 +12,7 @@ const Timeline = () => {
   return (
     <div className="relative flex justify-center ">
       <section id='experience' >
+        <Title title="Skills" />
         <VerticalTimeline>
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
