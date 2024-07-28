@@ -7,6 +7,7 @@ import { FloatingNav, } from "@/components/ui/floating-navbar";
 import Image from "next/image";
 import { FaHome} from "react-icons/fa";
 import Title from "@/components/Title";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -20,8 +21,10 @@ export default function Home() {
         <Skills />
         <Title title="Projects" />
         <ThreeDCardDemo title="Temple Trading Hub" description="a place for temple students to trade stuff safely" image="/project_one.png"  />
+        <ThreeDCardDemo title="Temple Trading Hub" description="a place for temple students to trade stuff safely" image="/project_one.png"  />
         <Title title="Timeline"/>
         <CustomizedTimeline />
+        <Footer />
       </div>
     </main>
   );
