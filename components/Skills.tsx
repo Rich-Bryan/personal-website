@@ -3,6 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Title from "./Title";
+import { skillsData } from "@/lib/data";
+
 
 const fadeInAnimationVariants = {
   initial: {
@@ -19,27 +21,7 @@ const fadeInAnimationVariants = {
 };
 
 const Skills = () => {
-  const skillsData = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Git",
-    "Tailwind",
-    "Prisma",
-    "MongoDB",
-    "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
-    "Python",
-    "Django",
-    "Framer Motion",
-  ] as const;
+  
 
   return (
     <div>

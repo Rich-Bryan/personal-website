@@ -27,3 +27,26 @@ export const experiencesData = [
       date: "2021 - present",
     },
   ] as const;
+
+
+
+  export const skillsData = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Git",
+    "Tailwind",
+    "MongoDB",
+    "Express",
+    "PostgreSQL",
+    "Python",
+    "AWS",
+    "GCP",
+    "AirFlow",
+    "Java",
+    "C/C++"
+  ] as const;
