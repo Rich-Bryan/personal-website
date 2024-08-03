@@ -3,12 +3,12 @@ import React from "react";
 
 export const experiencesData = [
     {
-      title: "Graduated bootcamp",
+      title: "Software Engineer at CVS",
       location: "Miami, FL",
       description:
         "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
       icon: <FaLocationArrow />,
-      date: "2019",
+      date: "May - August 2024",
     },
     {
       title: "Front-End Developer",
@@ -30,7 +30,7 @@ export const experiencesData = [
 
 
 
-  export const skillsData = [
+export const skillsData = [
     "HTML",
     "CSS",
     "JavaScript",

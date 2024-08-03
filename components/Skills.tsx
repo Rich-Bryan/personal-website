@@ -26,24 +26,26 @@ const Skills = () => {
   return (
     <div>
       <Title title="Skills" />
-      <ul className="relative flex flex-wrap justify-center gap-2 text-lg text-gray-800 pb-8">
-        {skillsData.map((skill, index) => (
-          <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
-            key={index}
-            variants={fadeInAnimationVariants}
-            initial="initial"
-            whileInView="animate"
-            viewport={{
-              once: true,
-            }}
-            custom={index}
-          >
-            {skill}
-          </motion.li>
-        ))}
-      </ul>
+      <div className="flex items-center justify-center">
+        <ul className="relative flex flex-wrap justify-center gap-2 text-lg text-gray-800 pb-8  max-w-[53rem]">
+          {skillsData.map((skill, index) => (
+            <motion.li
+              className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+              key={index}
+              variants={fadeInAnimationVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{
+                once: true,
+              }}
+              custom={index}
+            >
+              {skill}
+            </motion.li>
+          ))}
+        </ul>
 
+     </div>
     </div>
   )
 }

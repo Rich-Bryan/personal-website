@@ -12,7 +12,7 @@ const Timeline = () => {
   return (
     <div className="relative flex justify-center ">
       <section id='experience' >
-        <Title title="Skills" />
+        <Title title="Timeline" />
         <VerticalTimeline>
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
