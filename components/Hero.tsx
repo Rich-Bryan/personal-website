@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className='relative pb-20 pt-36'>
+    <div className='relative pb-20 pt-36' id="#about">
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white'/>
         <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple'/>
@@ -30,7 +30,7 @@ const Hero = () => {
             className='text-center text-[40px] md:text-5xl ls:text-6xl'
             words="I am a Software Engineer"
           />
-          <a href="#about">
+          <a href="#projects">
             <MagicButton title="Show My Work" icon={<FaLocationArrow />} position="right" />
           </a>
           <div className='flex flex-row items-center justify-center gap-5 mt-12'>

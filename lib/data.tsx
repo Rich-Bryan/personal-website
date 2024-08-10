@@ -50,3 +50,11 @@ export const skillsData = [
     "Java",
     "C/C++"
   ] as const;
+
+
+export const navItems = [
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "Contact", link: "#contact" },
+];
