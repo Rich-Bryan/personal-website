@@ -3,21 +3,29 @@ import React from "react";
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Start Temple University",
+    location: "Philadelphia, PA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Started Academic Career in Fall 2021",
     icon: <FaLocationArrow />,
-    date: "2021 - present",
+    date: "Fall 2021",
+  },
+  {
+    title: "Software Enginner Intern at Temple University",
+    location: "Philadelphia, PA",
+    description:
+      "Designed a Web application for a Research Study for Lottery.",
+    icon: <FaLocationArrow />,
+    date: "May 2022 - August 2022",
   },
 
   {
-    title: "Teaching Assistant",
+    title: "Teaching Assistant at Temple University",
     location: "Philadelphia, PA",
     description:
       "Enhanced quiz and exam performance of 20+ students by 15% through coding review sessions and provide support to students with office hours.",
     icon: <FaLocationArrow />,
-    date: "May 2022 - August 2022",
+    date: "May 2022 - Present",
   },
 
   {
@@ -27,6 +35,14 @@ export const experiencesData = [
       "Worked in the data engineering team, Migrate Data from Hadoop to GCP.",
     icon: <FaLocationArrow />,
     date: "May 2024 - August 2024",
+  },
+  {
+    title: "Graduation Temple University",
+    location: "Philadelphia, PA",
+    description:
+      "Anticipated Graduation from Temple University",
+    icon: <FaLocationArrow />,
+    date: "Spring 2025",
   },
 ] as const;
 
