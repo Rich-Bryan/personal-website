@@ -15,7 +15,7 @@ export const experiencesData = [
     title: "Teaching Assistant",
     location: "Philadelphia, PA",
     description:
-      "Enhancing quiz and exam performance of 20+ students by 15% through coding review sessions and provide support to students with office hours.",
+      "Enhanced quiz and exam performance of 20+ students by 15% through coding review sessions and provide support to students with office hours.",
     icon: <FaLocationArrow />,
     date: "May 2022 - August 2022",
   },

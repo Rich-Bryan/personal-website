@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import Title from "./Title";
 import {
@@ -13,13 +13,13 @@ const Timeline = () => {
     <div className="relative flex justify-center ">
       <section id='experience' >
         <Title title="Experience" />
-        <VerticalTimeline >
+        <VerticalTimeline lineColor="">
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
               <VerticalTimelineElement
               key={index}
               visible={true}
-              className=" vertical-timeline-element--work"
+              className="vertical-timeline-element--education"
               contentStyle={{
                 background: "rgba(255, 255, 255, 0.1)",
                 borderRadius: "0.75rem", // rounded-xl
@@ -39,7 +39,9 @@ const Timeline = () => {
               icon ={item.icon}
               iconStyle={{
                 background: "black",
-                fontSize: "1.5rem"
+                fontSize: "1.5rem",
+                color: '#fff'
+                
               }}
             >
                 <h3 className="font-semibold capitalize"> {item.title}</h3>

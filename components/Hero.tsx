@@ -39,7 +39,7 @@ const Hero = () => {
               Download CV <HiDownload className='relative top-1'/>
             </a>
             <a className='bg-white text-black p-5 py-4 flex item-center dark:bg-white/10 dark:text-white/80 gap-2 rounded-full focus:scale-100 hover:scale-105 active:scale-100 transition'
-              href="https://github.com/Rich-Bryan" target="_blank" >
+              href="https://www.linkedin.com/in/bryanli0820/" target="_blank" >
               <BsLinkedin />
             </a>
             <a className='bg-white text-black p-5 py-4 flex item-center dark:bg-white/10 dark:text-white/80 gap-2 rounded-full focus:scale-100 hover:scale-105 active:scale-100 transition'
