@@ -1,5 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa";
 import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
 
 export const experiencesData = [
   {
@@ -7,7 +10,7 @@ export const experiencesData = [
     location: "Philadelphia, PA",
     description:
       "Started Academic Career in Fall 2021",
-    icon: <FaLocationArrow />,
+    icon: <LuGraduationCap />,
     date: "Fall 2021",
   },
   {
@@ -15,7 +18,7 @@ export const experiencesData = [
     location: "Philadelphia, PA",
     description:
       "Designed a Web application for a Research Study for Lottery.",
-    icon: <FaLocationArrow />,
+    icon: <CgWorkAlt />,
     date: "May 2022 - August 2022",
   },
 
@@ -24,7 +27,7 @@ export const experiencesData = [
     location: "Philadelphia, PA",
     description:
       "Enhanced quiz and exam performance of 20+ students by 15% through coding review sessions and provide support to students with office hours.",
-    icon: <FaLocationArrow />,
+    icon: <CgWorkAlt />,
     date: "May 2022 - Present",
   },
 
@@ -33,7 +36,7 @@ export const experiencesData = [
     location: "New York, NY",
     description:
       "Worked in the data engineering team, Migrate Data from Hadoop to GCP.",
-    icon: <FaLocationArrow />,
+    icon: <CgWorkAlt />,
     date: "May 2024 - August 2024",
   },
   {
@@ -41,7 +44,7 @@ export const experiencesData = [
     location: "Philadelphia, PA",
     description:
       "Anticipated Graduation from Temple University",
-    icon: <FaLocationArrow />,
+    icon: <LuGraduationCap />,
     date: "Spring 2025",
   },
 ] as const;
