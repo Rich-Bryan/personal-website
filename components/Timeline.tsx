@@ -19,7 +19,7 @@ const Timeline = () => {
               <VerticalTimelineElement
               key={index}
               visible={true}
-              className="vertical-timeline-element--education"
+              className="vertical-timeline-element--education text-black dark:text-white"
               contentStyle={{
                 background: "rgba(255, 255, 255, 0.1)",
                 borderRadius: "0.75rem", // rounded-xl
