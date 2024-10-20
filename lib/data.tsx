@@ -35,9 +35,19 @@ export const experiencesData = [
     title: "Software Engineer at CVS",
     location: "New York, NY",
     description:
-      "Worked in the data engineering team, Migrate Data from Hadoop to GCP.",
+      `Worked in the data engineering team.
+      Helped Migrate data from Hadoop to GCP.
+      Created a data validation system to check data from on-prem with cloud`,
     icon: <CgWorkAlt />,
     date: "May 2024 - August 2024",
+  },
+  {
+    title: "Software Engineer at xSoTech",
+    location: "Philadelphia, PA",
+    description:
+      "Worked closely with the CEO to create solutions with Google Apps Scripts for 50+ school disctrict around the world.",
+    icon: <CgWorkAlt />,
+    date: "October 2024 - Present",
   },
   {
     title: "Graduation Temple University",
@@ -47,6 +57,8 @@ export const experiencesData = [
     icon: <LuGraduationCap />,
     date: "Spring 2025",
   },
+
+ 
 ] as const;
 
 export const skillsData = [
