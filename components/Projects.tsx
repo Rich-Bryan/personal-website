@@ -20,8 +20,8 @@ const Projects = () => {
             />
             <ThreeDCardDemo title="memer.ai" 
               description="Hackathon winner" 
-              image=""
-              githubLink="" 
+              image="/memerai.png"
+              githubLink="https://devpost.com/software/memer-ai?ref_content=my-projects-tab&ref_feature=my_projects" 
             />
             
             
