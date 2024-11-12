@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Software Engineer at xSoTech",
     location: "Philadelphia, PA",
     description:
-      "Worked closely with the CEO to create solutions with Google Apps Scripts for 50+ school disctrict around the world.",
+      "Worked closely with the CEO to create solutions with Google Apps Scripts for 50+ school district around the world.",
     icon: <CgWorkAlt />,
     date: "October 2024 - Present",
   },
