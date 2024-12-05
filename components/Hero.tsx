@@ -35,7 +35,7 @@ const Hero = () => {
           </a>
           <div className='flex flex-row items-center justify-center gap-5 mt-12'>
             <a className='bg-white text-black p-7 py-3 flex item-center dark:bg-white/10 dark:text-white/80 gap-2 rounded-full focus:scale-100 hover:scale-105 active:scale-100 transition'
-             href="/BryanResume_Fultime_2025.pdf" download>
+             href="/BryanResume_Fultime.pdf" download>
               Download CV <HiDownload className='relative top-1'/>
             </a>
             <a className='bg-white text-black p-5 py-4 flex item-center dark:bg-white/10 dark:text-white/80 gap-2 rounded-full focus:scale-100 hover:scale-105 active:scale-100 transition'
