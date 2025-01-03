@@ -88,3 +88,23 @@ export const navItems = [
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
+
+export const ProjectsData = [
+  {title:"Temple Trading Hub",
+    description:"a place for temple students to trade stuff safely", 
+    image:"/project_one.png", 
+    githubLink:'https://github.com/cis3296s24/tth'},
+  {title:"XFire",
+    description:"Hackathon winner", 
+    image:"/xfire.png", 
+    githubLink:'ttps://github.com/timo1k/renren"'},
+
+  {title:"memer.ai",
+    description:"Hackathon winner", 
+    image:"/memerai.png", 
+    githubLink:'https://devpost.com/software/memer-ai?ref_content=my-projects-tab&ref_feature=my_projects'}
+  
+
+
+
+]
