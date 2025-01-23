@@ -97,7 +97,7 @@ export const ProjectsData = [
   {title:"XFire",
     description:"Hackathon winner", 
     image:"/xfire.png", 
-    githubLink:'ttps://github.com/timo1k/renren"'},
+    githubLink:'https://github.com/timo1k/renren"'},
 
   {title:"memer.ai",
     description:"Hackathon winner", 
